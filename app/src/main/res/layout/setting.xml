@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearSetting"
+    android:background="@mipmap/bamboo"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:src="@mipmap/setting"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@mipmap/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_margin="15dp"
+            android:id="@+id/img_count_down"
+            android:src="@mipmap/left"
+            android:layout_width="26dp"
+            android:layout_height="23dp" />
+
+        <ImageView
+            android:id="@+id/img_count"
+            android:layout_width="38dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ten" />
+
+        <ImageView
+            android:id="@+id/img_count_up"
+            android:src="@mipmap/right"
+            android:layout_margin="15dp"
+            android:layout_width="26dp"
+            android:layout_height="23dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:src="@mipmap/zhendong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img_setting_switch"
+            android:src="@mipmap/kai"
+            android:background="#f0e8e8"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="55dp"
+            android:layout_height="38dp"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@mipmap/yinxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_margin="15dp"
+            android:id="@+id/img_yinxiao_down"
+            android:src="@mipmap/left"
+            android:layout_width="26dp"
+            android:layout_height="23dp" />
+
+        <TextView
+            android:text="木琴"
+            android:id="@+id/tv_setting_yinxiao"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img_yinxiao_up"
+            android:src="@mipmap/right"
+            android:layout_margin="15dp"
+            android:layout_width="26dp"
+            android:layout_height="23dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:src="@mipmap/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/left"
+            android:id="@+id/img_music_down"
+            android:layout_width="49dp"
+            android:layout_height="31dp" />
+        <TextView
+            android:id="@+id/tv_settting_music"
+            android:text="将军令"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/right"
+            android:id="@+id/img_music_up"
+            android:layout_width="49dp"
+            android:layout_height="31dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_setting_out"
+        android:text="退出"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

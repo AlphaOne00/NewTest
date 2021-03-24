@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearMain"
+    android:background="@mipmap/bamboo"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:src="@mipmap/title"
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:layout_weight="0.13" />
+
+    <ImageView
+        android:id="@+id/imgPlay"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="210dp"
+        android:src="@mipmap/start" />
+
+    <ImageView
+        android:id="@+id/imgSetting"
+        android:layout_width="123dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:src="@mipmap/setting" />
+
+    <ImageView
+        android:id="@+id/imgBackg"
+        android:layout_width="123dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:src="@mipmap/background" />
+
+    <ImageView
+        android:id="@+id/imgQuit"
+        android:layout_width="123dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:src="@mipmap/quit" />
+
+    <ImageView
+        android:id="@+id/imgLaba"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/laba1" />
+
+
+</LinearLayout>
